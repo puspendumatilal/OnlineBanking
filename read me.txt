@@ -1,0 +1,9 @@
+to run this:
+install XAMPP server
+
+copy this folder inside xampp/htdox
+
+make the database properly
+
+type localhost/project/home.php
+
