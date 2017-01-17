@@ -1,0 +1,38 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p {margin: 0; padding: 0;}
+body {font: 14px / 1.7 Arial, "\ 5b8b \ 4f53";}
+h1, h2, h3 {font: bold 36px / 2 "\ 5fae \ 8f6f \ 96c5 \ 9ed1";}
+h1 {padding: 0 20px; background: # 333; color: #fff;}
+h2 {font-size: 20px;}
+h3 {font-size: 16px;}
+ul {list-style-type: none;}
+
+
+
+/**
+ * Focus FIG horizontal scroll
+ * ------------------------------ */
+.cxslide_x {overflow: hidden; position: relative; width: 1050px; height: 500px; border: 1px solid # 777;}
+.cxslide_x a {color: #eee; text-decoration: none;}
+.cxslide_x .box {overflow: hidden; position: relative; width: 1050px; height: 500px;}
+.cxslide_x .list {overflow: hidden; width: 9999px;}
+.cxslide_x .list li {float: left; position: relative; width: 1050px;}
+.cxslide_x .list img {vertical-align: top;}
+.cxslide_x .list p {position: absolute; bottom: 0; left: 0; width: 100%; height: 24px; color: #eee; font: 12px / 24px arial; text-indent: 12px;
+filter: progid: DXImageTransform.Microsoft.gradient (enabled = 'true', startColorstr = '# 99000000', endColorstr = '# 99000000');
+background: rgba (0,0,0,0.6);
+}
+.cxslide_x .btn {overflow: hidden; position: absolute; bottom: 4px; right: 6px;}
+.cxslide_x .btn li {float: left; width: 16px; height: 16px; margin: 0 0 0 10px; border-radius: 2px; background: #eee; color: # 333; font: 11px / 16px Tahoma; text- align: center; cursor: pointer;}
+.cxslide_x .btn li.selected {background: # f30; color: #fff;}
+.cxslide_x .minus,
+.cxslide_x .plus {position: absolute; top: 110px; width: 40px; height: 50px; background-image: url (../ img / control.png); background-repeat: no-repeat; text-align: center ; cursor: pointer;}
+.cxslide_x .minus {left: 0; background-position: 0 0;}
+.cxslide_x .plus {right: 0; background-position: -40px 0;}
+.cxslide_x .minus: hover {background-position: 0 -50px;}
+.cxslide_x .plus: hover {background-position: -40px -50px;}
+
+
+
+
+
+
